@@ -98,4 +98,4 @@ wss.on('connection', ws => {
   ws.on('error', () => leave(ws));
 });
 
-server.listen(port, () => console.log(`Pixel Hunt server listening on :${port}`));
+server.listen(port, '0.0.0.0', () => console.log(`Pixel Hunt server listening on 0.0.0.0:${port}`));
