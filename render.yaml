@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: hanwha-pixel-hunt-server
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
